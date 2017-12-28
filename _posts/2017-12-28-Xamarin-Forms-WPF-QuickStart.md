@@ -25,7 +25,6 @@ You can select the platforms you want. This interface does not allow to add the 
 ![Create WPF Project](/images/newwpfproject.png)
 
 5. The result...
-
 ![Solution view](/images/solutionview.png)
 
 6. Open the "Nuget panel" by going to Tools > NuGet Package Manager -> Manage nuget packages for the solution.
@@ -36,11 +35,9 @@ You can select the platforms you want. This interface does not allow to add the 
 ![Nuget](/images/nugetmaj.png)
   
 7. Install Xamarin.Forms.WPF package
-
 ![Install WPF package](/images/wpfnugetpackage.png)
 
 8. Add Resource in App.xaml (WPF Project)
-
 ```C#
 <Application x:Class="HelloWPF.WPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -75,7 +72,6 @@ You can select the platforms you want. This interface does not allow to add the 
 ```
 
 9. Update MainWindow.xaml 
-
 ```C#
 <wpf:FormsApplicationPage x:Class="HelloWPF.WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -91,7 +87,6 @@ You can select the platforms you want. This interface does not allow to add the 
 ```
 
 10. Update MainWindow.cs
-
 ```C#
 using Xamarin.Forms.Platform.WPF;
 
