@@ -7,3 +7,4 @@ This walkthrough demonstrates how to create an application with Xamarin Forms fo
 
 1. In the Start screen, launch Visual Studio. This opens the start page:
 
+
