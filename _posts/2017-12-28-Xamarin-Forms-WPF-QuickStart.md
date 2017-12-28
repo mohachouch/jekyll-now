@@ -39,6 +39,75 @@ You can select the platforms you want. This interface does not allow to add the 
 
 ![Install WPF package](/images/wpfnugetpackage.png)
 
-8. 
+8. Add Resource in App.xaml (WPF Project)
 
+```C#
+<Application x:Class="HelloWPF.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HelloWPF.WPF"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/WPFLightToolkit;component/Assets/Default.xaml" />
+            </ResourceDictionary.MergedDictionaries>
 
+            <!-- Default Global Color -->
+            <SolidColorBrush x:Key="WindowBackgroundColor" Color="White" />
+            <SolidColorBrush x:Key="AccentColor" Color="#3498db" />
+
+            <!-- Default Command Bar Color -->
+            <SolidColorBrush x:Key="CommandBarBackgroundColor" Color="#3498db" />
+            <SolidColorBrush x:Key="CommandBarTextColor" Color="White" />
+
+            <!-- Default Title Bar Color -->
+            <SolidColorBrush x:Key="DefaultTitleBarBackgroundColor" Color="#3498db" />
+            <SolidColorBrush x:Key="DefaultTitleBarTextColor" Color="White" />
+
+            <!-- Default Tabbed Bar Color -->
+            <SolidColorBrush x:Key="DefaultTabbedBarBackgroundColor" Color="#3498db" />
+            <SolidColorBrush x:Key="DefaultTabbedBarTextColor" Color="White" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+```
+
+9. Update MainWindow.xaml 
+
+```C#
+<wpf:FormsApplicationPage x:Class="HelloWPF.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpf="clr-namespace:Xamarin.Forms.Platform.WPF;assembly=Xamarin.Forms.Platform.WPF"
+        mc:Ignorable="d"
+        WindowState="Normal" 
+        Title="Hello WPF" >
+ 
+</wpf:FormsApplicationPage>
+```
+
+10. Update MainWindow.cs
+
+```C#
+using Xamarin.Forms.Platform.WPF;
+
+namespace HelloWPF.WPF
+{
+	/// <summary>
+	/// Logique d'interaction pour MainWindow.xaml
+	/// </summary>
+	public partial class MainWindow : FormsApplicationPage
+	{
+		public MainWindow()
+		{
+			InitializeComponent();
+			Xamarin.Forms.Forms.Init();
+			LoadApplication(new HelloWPF.App());
+		}
+	}
+}
+```
