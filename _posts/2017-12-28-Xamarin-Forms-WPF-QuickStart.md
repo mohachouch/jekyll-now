@@ -38,6 +38,7 @@ You can select the platforms you want. This interface does not allow to add the 
 ![Install WPF package](/images/wpfnugetpackage.png)
 
 8. Add Resource in App.xaml (WPF Project)
+
 ```C#
 <Application x:Class="HelloWPF.WPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -72,6 +73,7 @@ You can select the platforms you want. This interface does not allow to add the 
 ```
 
 9. Update MainWindow.xaml 
+
 ```C#
 <wpf:FormsApplicationPage x:Class="HelloWPF.WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -87,6 +89,7 @@ You can select the platforms you want. This interface does not allow to add the 
 ```
 
 10. Update MainWindow.cs
+
 ```C#
 using Xamarin.Forms.Platform.WPF;
 
