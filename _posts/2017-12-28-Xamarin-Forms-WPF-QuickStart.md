@@ -125,8 +125,12 @@ In order to work in a WPF project, packages must target net45. You may find that
 #### Xamarin.Forms Features
 This preview has amazing coverage of Xamarin.Forms UI and features, but there are some known gaps to be aware of.
 
-##### Not Yet Implemented:
-Accessibility
+Not Yet Implemented:
+* Accessibility
+* TimePicker
+* List (Lot of work)
+* NativeViewWrapper
+* NavigationMenu
 
 ## Send Your Feedback!
 Add a WPF project to your solutions today and let us know what you think. What do you feel is missing? What problems do you encounter?
