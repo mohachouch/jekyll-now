@@ -5,7 +5,7 @@ title: Xamarin Forms WPF - Quick Start
 
 This walkthrough demonstrates how to create an application with Xamarin Forms for WPF. 
 
-The Xamarin Forms WPF platform is available on nightly build. See this tutorial to access to nighlty build : https://blog.xamarin.com/try-the-latest-in-xamarin-forms-with-nightly-builds/
+The Xamarin Forms WPF platform is available on nightly build. [Click here to read the tutorial about "How to access to nighlty build"](https://blog.xamarin.com/try-the-latest-in-xamarin-forms-with-nightly-builds/)
 
 ## Create Xamarin Forms Project
 
@@ -135,4 +135,5 @@ Not Yet Implemented:
 ## Send Your Feedback!
 Add a WPF project to your solutions today and let us know what you think. What do you feel is missing? What problems do you encounter?
 
-The link of this project : https://github.com/mohachouch/HelloWPF.git
+[The link of this project : ](https://github.com/mohachouch/HelloWPF.git)
+
