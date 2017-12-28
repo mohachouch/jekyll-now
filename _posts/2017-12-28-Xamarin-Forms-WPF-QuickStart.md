@@ -25,12 +25,13 @@ You can select the platforms you want. This interface does not allow to add the 
 ![Create WPF Project](/images/newwpfproject.png)
 
 - The result...
+
 ![Solution view](/images/solutionview.png)
 
 - Open the "Nuget panel" by going to Tools > NuGet Package Manager -> Manage nuget packages for the solution.
-  -- Click on Update 
-  -- Select the source package : Xamarin Forms Nightly
-  -- Install the latest preview in all project (see image)
+  - Click on Update 
+  - Select the source package : Xamarin Forms Nightly
+  - Install the latest preview in all project (see image)
 
 ![Nuget](/images/nugetmaj.png)
   
@@ -114,3 +115,18 @@ namespace HelloWPF.WPF
 
 ![Started](/images/hellowpfstarted.png)
 
+## Known Issues
+
+This is a Preview, so you should expect that not everything is production ready. Below are a few things you may encounter as you add WPF to your projects.
+
+### Not All NuGets are Ready for macOS
+In order to work in a WPF project, packages must target net45. You may find that some of your beloved libraries do not yet support WPF. What can you do? Kindly send a request to the project’s maintainer to add it. Until they have support, you may need to look for alternatives.
+
+### Xamarin.Forms Features
+This preview has amazing coverage of Xamarin.Forms UI and features, but there are some known gaps to be aware of.
+
+#### Not Yet Implemented:
+Accessibility
+
+## Send Your Feedback!
+Add a WPF project to your solutions today and let us know what you think. What do you feel is missing? What problems do you encounter?
