@@ -7,7 +7,7 @@ This walkthrough demonstrates how to create an application with Xamarin Forms fo
 
 The Xamarin Forms WPF platform is available on nightly build.
 
-**Create Xamarin Forms Project
+## Create Xamarin Forms Project
 
 1. In Visual Studio, click File > New > Project ... to create a new project:
 ![Stat Visual Studio](/images/start.png)
@@ -19,4 +19,4 @@ The Xamarin Forms WPF platform is available on nightly build.
 You can select the platforms you want. This interface does not allow to add the WPF platform automatically. We will add it manually later.
 ![New Cross Platform](/images/newcrossplatform.png)
 
-**Add WPF project
+## Add WPF project
