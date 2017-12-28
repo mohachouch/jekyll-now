@@ -119,13 +119,13 @@ namespace HelloWPF.WPF
 
 This is a Preview, so you should expect that not everything is production ready. Below are a few things you may encounter as you add WPF to your projects.
 
-### Not All NuGets are Ready for macOS
+#### Not All NuGets are Ready for macOS
 In order to work in a WPF project, packages must target net45. You may find that some of your beloved libraries do not yet support WPF. What can you do? Kindly send a request to the project’s maintainer to add it. Until they have support, you may need to look for alternatives.
 
-### Xamarin.Forms Features
+#### Xamarin.Forms Features
 This preview has amazing coverage of Xamarin.Forms UI and features, but there are some known gaps to be aware of.
 
-#### Not Yet Implemented:
+##### Not Yet Implemented:
 Accessibility
 
 ## Send Your Feedback!
