@@ -5,7 +5,7 @@ title: Xamarin Forms WPF - Quick Start
 
 This walkthrough demonstrates how to create an application with Xamarin Forms for WPF. 
 
-The Xamarin Forms WPF platform is available on nightly build.
+The Xamarin Forms WPF platform is available on nightly build. See this tutorial to access to nighlty build : https://blog.xamarin.com/try-the-latest-in-xamarin-forms-with-nightly-builds/
 
 ## Create Xamarin Forms Project
 
@@ -20,3 +20,25 @@ You can select the platforms you want. This interface does not allow to add the 
 ![New Cross Platform](/images/newcrossplatform.png)
 
 ## Add WPF project
+
+4. In Visual add a new WPF project in your solution. 
+![Create WPF Project](/images/newwpfproject.png)
+
+5. The result...
+
+![Solution view](/images/solutionview.png)
+
+6. Open the "Nuget panel" by going to Tools > NuGet Package Manager -> Manage nuget packages for the solution.
+  - Click on Update 
+  - Select the source package : Xamarin Forms Nightly
+  - Install the latest preview in all project (see image)
+
+![Nuget](/images/nugetmaj.png)
+  
+7. Install Xamarin.Forms.WPF package
+
+![Install WPF package](/images/wpfnugetpackage.png)
+
+8. 
+
+
