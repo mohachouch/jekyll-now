@@ -127,7 +127,6 @@ This preview has amazing coverage of Xamarin.Forms UI and features, but there ar
 
 Not Yet Implemented:
 * Accessibility
-* TimePicker
 * List (Lot of work)
 * NativeViewWrapper
 * NavigationMenu
